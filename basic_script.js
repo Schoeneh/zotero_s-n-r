@@ -1,6 +1,6 @@
-var fieldName = prompt("In welchem Feld soll gesucht werden?\n\nFür eine Liste aller möglichen Felder:\nhttps://api.zotero.org/itemFields?pprint=1", "title");
-var search = prompt("Welche Zeichen/Wörter sollen gesucht werden?", "Foo");
-var replace = prompt("Durch welche Zeichen/Wörter soll es ersetzt werden?", "Foobar");
+var fieldName = prompt("Which field should be searched?\n\nFor a list of all available fields see:\nhttps://api.zotero.org/itemFields?pprint=1", "title");
+var search = prompt("What characters/words should be searched for?", "Foo");
+var replace = prompt("What should it be replaced with?", "Foobar");
 
 // Search
 var fieldID = Zotero.ItemFields.getID(fieldName);
