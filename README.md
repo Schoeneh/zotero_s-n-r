@@ -1,1 +1,1 @@
-# zotero-s-n-e
+# Zotero-S'n'E - Search and Replace for Zotero
