@@ -2,10 +2,9 @@
 Zotero was and still is in dire need of a simple search and replace function. Consequently, I decided to learn JavaScript and coded a basic solution.  
 ## What it does:
 1. Prompting, "Which field should be searched?" ([full list of available fields and their names](https://api.zotero.org/itemFields?pprint=1)).
-2. Next, you need to provide the old and new string (2 further prompts).
-3. Then the script will start a search in your current library (`$string1 contains $string2` in the given field).  
-   Just as the 'Advanced Search' would do.
-5. After that, you will see how many items will be changed and a preview of the first item. Once you agree, the script will perform the operation and tell you how many items were changed.
+2. Next, you need to provide the `$search-string` and `$replace-string` (2 further prompts).
+3. Then the script will start a search in your current library (`$field contains $search-string`); just as the 'Advanced Search' would do.
+5. After that, you will see how many items will be update and a preview. Once you confirm, the script will perform the operation and tell you how many items were changed.
 
 ## What you should do:
 **Back up your local Zotero-library before using my script (or doing any batch-editing)!**
