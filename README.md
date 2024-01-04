@@ -4,7 +4,7 @@ Zotero was and still is in dire need of a simple search and replace function. Co
 1. First, provide the `$field` that should be searched ([full list of available fields and their names](https://api.zotero.org/itemFields?pprint=1)).
 2. Next, you need to provide the `$search-string` and `$replace-string` (2 further prompts).
 3. Then the script will start a search in your current library (`$field contains $search-string`); just as the normal 'Advanced Search' would do.
-5. After that, you will see how many items will be update and a preview. Once you confirm, the script will perform the operation and tell you how many items were changed.
+5. After that, you will see how many items will be updated and a preview. Once you confirm, the script will perform the operation and tell you how many items were changed.
 
 ## What you should do:
 **Back up your local Zotero-library before using my script (or doing any batch-editing)!**
