@@ -16,6 +16,3 @@ Zotero was and still is in dire need of a simple search and replace function. Co
 The easiest way of running Zotero-S'n'R is to copy the code from '[src/basic_script.js](https://github.com/Schoeneh/zotero-s-n-r/releases/latest/download/basic_script.js)' into Tools --> Developer --> Run Javascript:
 
 ![Screenshot showing the menu and submenus: Tools, Developer, Run JavaScript](doc/screenshot_developer.png)
-
-## How to use it -- 2: Plugin
---- in development ---
